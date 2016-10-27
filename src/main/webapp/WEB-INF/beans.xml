@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://xmlns.jcp.org/xml/ns/javaee">
+
+  <scan>
+    <!-- These exclusions were added by Errai to avoid deploying client-side classes to the server -->
+    <exclude name = "org.jboss.errai.demo.client.local.AppResources$Normalize" />
+    <exclude name = "org.jboss.errai.demo.client.local.AppResources$Style" />
+    <exclude name = "org.jboss.errai.demo.client.local.AppResources" />
+    <exclude name = "org.jboss.errai.demo.client.local.AppSetup$1" />
+    <exclude name = "org.jboss.errai.demo.client.local.AppSetup$2" />
+    <exclude name = "org.jboss.errai.demo.client.local.AppSetup$PageData" />
+    <exclude name = "org.jboss.errai.demo.client.local.AppSetup" />
+    <exclude name = "org.jboss.errai.demo.client.local.AppView$1" />
+    <exclude name = "org.jboss.errai.demo.client.local.AppView$Binder" />
+    <exclude name = "org.jboss.errai.demo.client.local.AppView$Resources" />
+    <exclude name = "org.jboss.errai.demo.client.local.AppView$Style" />
+    <exclude name = "org.jboss.errai.demo.client.local.AppView" />
+    <exclude name = "org.jboss.errai.demo.client.local.CheckedPAge" />
+    <exclude name = "org.jboss.errai.demo.client.local.Pagina1" />
+    <exclude name = "org.jboss.errai.demo.client.local.Pagina2" />
+    <exclude name = "org.jboss.errai.demo.client.local.Pagina3" />
+    <exclude name = "org.jboss.errai.demo.client.local.Pagina4$1$1" />
+    <exclude name = "org.jboss.errai.demo.client.local.Pagina4$1" />
+    <exclude name = "org.jboss.errai.demo.client.local.Pagina4" />
+    <exclude name = "org.jboss.errai.demo.client.local.UnaClassxe" />
+    <exclude name = "org.jboss.errai.demo.client.local.UnaClassxeRicopiata" />
+    <exclude name = "org.jboss.errai.demo.client.shared.Contact" />
+    <exclude name = "org.jboss.errai.demo.client.shared.ContactOperation" />
+    <exclude name = "org.jboss.errai.demo.client.shared.ContactStorageService" />
+    <exclude name = "org.jboss.errai.demo.client.shared.Operation$OperationType" />
+    <exclude name = "org.jboss.errai.demo.client.shared.Operation" />
+    <!-- End of Errai exclusions -->
+  </scan>
+</beans>

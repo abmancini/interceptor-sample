@@ -1,0 +1,21 @@
+<module rename-to="app">
+
+
+  <inherits name="org.jboss.errai.ui.UI" />
+  <inherits name="org.jboss.errai.ui.nav.Navigation"/>
+  <inherits name="org.jboss.errai.enterprise.CDI"/>
+
+
+  <inherits name="com.google.web.bindery.autobean.AutoBean"/>
+  <inherits name="org.jboss.errai.security.Security"/>
+
+  <set-property name="gwt.logging.enabled" value="TRUE"/>
+
+  <set-configuration-property name="CssResource.enableGss" value="true"/>
+
+
+
+  <source path="client"/>
+
+
+</module>
